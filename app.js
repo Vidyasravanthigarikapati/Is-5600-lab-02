@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function generateUserList(users,stocks) {
+        //user list
         const userList = document.querySelector('.user-list');
         userList.innerHTML ='';
     
